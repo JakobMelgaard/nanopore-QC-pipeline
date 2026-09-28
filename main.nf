@@ -46,8 +46,8 @@ output {
         mode "copy"
     }
     align{
-	path "."
-	mode "copy"
+		path "."
+		mode "copy"
     }
 }
 
