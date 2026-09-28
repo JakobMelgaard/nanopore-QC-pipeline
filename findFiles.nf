@@ -1,14 +1,18 @@
 process findFiles {
+
     input:
     path dir
 
     output:
-    tuple path("found_files.txt") val(ID)
+    path "found_files.txt"
 
     script:
     """
-    find -L ${dir} -type f -name "*pass*.fastq.gz" > found_files.txt
-// something taht return the id ie the last part of the directory name of the directory after no_sampel_id
+    find -L ${dir} -type f -name "*pass*.fastq.gz" | while read -r f; do
+        base=\$(basename "\$f")
+        sample_id=\$(echo "\$base" | sed -E 's/.*_pass_([^_]+)_.*/\\1/')
+        echo -e "\${sample_id}\t\${f}"
+    done > found_files.txt
     """
 }
 

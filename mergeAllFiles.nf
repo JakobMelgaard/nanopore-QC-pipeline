@@ -1,19 +1,19 @@
 process mergeAllFiles {
-    debug true
 
     input:
-    path files
+    tuple val(sample_id), path(files)
 
     output:
-    path "merged.fastq.gz"
-    path "merge_order.txt"
+    path "merged_${sample_id}.fastq.gz", emit: merged
+    path "merge_order_${sample_id}.txt", emit: order
+    val  "${sample_id}", emit: id
 
     script:
     """
     for f in ${files}; do
-        echo "\$f" >> merge_order.txt
+        echo "\$f" >> merge_order_${sample_id}.txt
     done
-    cat ${files} > merged.fastq.gz
+    cat ${files} > merged_${sample_id}.fastq.gz
     """
 }
 
