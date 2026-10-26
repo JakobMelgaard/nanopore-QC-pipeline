@@ -1,0 +1,109 @@
+2026-09-23 07:09:00	2.4s	high_mcnulty	OK	3c2cdc9823c2b4636e5e3e73e223878099ff5dc9	89ff2658-c9e6-4663-b383-791056b5fd2c	nextflow run hello
+2026-09-23 07:09:36	2.8s	boring_poisson	OK	f02d084627a79701bbf1db0c41bb0ee6	8deed911-9037-4349-8b92-ffa8c7efe34c	nextflow run test.nf
+2026-09-23 07:17:00	-	mad_dubinsky	-	9dd1fb9ebed8fede5e0179022229621a	bec4420d-dcee-44b2-809d-a791822d8f0b	nextflow run test.nf
+2026-09-23 07:17:24	3.3s	gigantic_moriondo	ERR	b32d21bd89ae3db60de5832791d949c1	4fb4ec5b-6207-4ab4-a99b-dd16e6e3266e	nextflow run test.nf
+2026-09-23 07:30:08	-	determined_neumann	-	1b8bfd9bd8f6ee700ed3dfbfc0c27478	c3c16358-0494-460f-afb4-8bf41cbee5ec	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:30:23	3.8s	hopeful_turing	OK	1ab424e8d60da850cd41e4a55689ce96	68b67739-c239-4435-aebb-19dfae0bff32	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:32:12	3.3s	high_curry	OK	630a966471df2702395d458f2b96cc16	a9b26558-fb03-4abe-9309-faaae1c6ff1b	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:37:40	-	maniac_meitner	-	ea1006816753ea959e846d548506a938	c51e1adf-9568-40f3-b27f-7d4434b6da53	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:38:38	3.6s	admiring_miescher	OK	9a5e1b9eb57012d5e5265cf8a84d56d8	845297f6-1b81-4df6-a1df-8f76736b24c5	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:42:45	3.2s	special_coulomb	OK	9a5e1b9eb57012d5e5265cf8a84d56d8	35f015c8-2ef2-483b-a2ab-05120be7abef	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:50:05	-	grave_descartes	-	143864809da685da12205199277ba3e4	a0846f02-dc87-4fe8-84c7-f6b32241148a	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:50:35	5.3s	distracted_khorana	ERR	098ec13cb8fee97d5094ffb5c8ed7518	4ee3566e-8565-49c1-9ef3-cb407e76660d	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:55:11	3.1s	pensive_swanson	ERR	f8ce4774c886e90c858a8f17aca0c27f	934deb84-a798-453b-a542-bd9f1800e387	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:57:21	-	tender_becquerel	-	90104ed8cbf45faca01fd38c97f465c8	850eb90c-a5aa-42da-ac9a-10103078ae54	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:57:39	3.6s	pensive_hugle	ERR	2a514e18e0951d6ad35764863ab23d76	6e1a794d-c07c-4969-891d-ad247d25aef2	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 07:59:03	3.3s	cranky_picasso	ERR	889c1cbae2ca2c763a458fe828adbc4b	9a96eb70-ae0d-4b68-b68b-c5adc69f216e	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 08:00:48	3.1s	determined_legentil	OK	d12bf442004b524bc03f91fdf867a626	9c2351d8-8f36-4080-9400-37b6f8cdcd73	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 08:02:03	2.8s	amazing_bell	OK	b4761385477f8815a6b1f548bef885cd	220e4ea3-2098-46e1-b6f5-4536fe9ab69f	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 08:07:38	3.1s	backstabbing_albattani	OK	a5e6cca3c26d9e97ff1d5d4dd70348aa	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-23 08:09:41	3s	gigantic_brattain	OK	7a102f216a401f6a2b9f25c87c0c70c0	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 08:09:56	-	crazy_liskov	-	7c50042f83b6fc059b6b3a54bdb9e49a	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 08:10:27	-	irreverent_mestorf	-	fbf6e57b6eb83dd744aa1e39a96806c7	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 08:49:04	-	sad_austin	-	d191e0fc8107e2f6fde2447d7473d220	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 08:49:22	3s	high_jennings	OK	d28eec76d8a75b4f9d1801f6318c0859	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 08:50:17	3.3s	spontaneous_wiles	OK	83189fb5132c7da88e1b242be73c60c6	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 09:54:36	-	zen_curran	-	09e6740a95d7ec6ee354cc97c77401c5	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 09:55:20	-	cranky_carlsson	-	09c703d49fc3764e33789ce1d9d0b1af	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 09:56:20	-	agitated_gates	-	862a0abea847ba1bce3a9acbe0f35d97	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 09:57:22	-	special_ampere	-	29ffa005649ce8c1383704cc762b495e	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 09:58:26	-	sick_mclean	-	5c080df29a1620bcd6b692c4f2b9db76	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 09:59:08	3.5s	wise_boltzmann	OK	47f2de9b8908f34b8ac9443fccbedbf0	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 10:02:50	-	irreverent_swirles	-	46f0a66c3669bc818a9c7a03f85e070f	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 10:05:24	3.5s	intergalactic_miescher	OK	d4c6c9105596074889aad398a8540449	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 10:29:36	-	loquacious_cray	-	2932fdd3ff1c5bb3f011797b13b538d9	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 10:30:19	-	romantic_kalam	-	19d5200acd96068dc3f73923eafc5f1b	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 10:31:53	3.2s	thirsty_mayer	OK	161736106a9b4b08a63107d1e4d98f79	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 10:33:43	7.9s	irreverent_pasteur	ERR	b91773a13bd89b0d6a6dbc28a1dc5574	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 10:34:17	2.6s	small_lamarr	OK	44f065d631b0b344097478a84ca89de5	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 11:21:00	4s	fervent_cori	OK	f64b16f55f3421acae6c20474669e756	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 13:26:55	-	silly_thompson	-	ea268e7db07048f7bd61c3fb5eee8cab	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 13:28:11	3.4s	distraught_torvalds	ERR	b4f7c4290e11f04f87272a383292197a	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 13:29:12	2.7s	big_kimura	OK	f07a86945c0b38528d3ae240288cbf4a	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 13:30:07	-	thirsty_poisson	-	a3c82803b865ba15e77330479d9bebaf	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 13:30:31	2.4s	naughty_jones	OK	5c523d1dd77c1f410461cbe478095f0d	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 13:39:27	-	exotic_solvay	-	0630fd26773def025ed721f1b1e9d1c5	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 13:40:08	3.3s	deadly_waddington	OK	66844f570bc185d7258b8225e86c55f0	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-23 14:05:53	3.1s	distraught_cajal	OK	7b38d7c729783c868f815ad8c2d3c28a	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 06:53:02	4.5s	agitated_mayer	OK	7b38d7c729783c868f815ad8c2d3c28a	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 07:31:41	-	jovial_swanson	-	ab40461a573ad5f578cfd9b8a1d06477	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 07:36:38	3.2s	nasty_mcnulty	OK	8be18c6afe3ca20f4ba7c0d5956c8ca2	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 07:45:22	3.9s	wise_hamilton	OK	5485a36b899cb2402851fc992a526cea	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 08:22:33	3.8s	admiring_baekeland	ERR	557bb40b234042080843ef939d736f5e	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 08:23:15	3.9s	nostalgic_cuvier	ERR	557bb40b234042080843ef939d736f5e	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 08:25:29	3s	angry_northcutt	ERR	be7c941b4a71d93caae849813aa3f0d1	1210d512-b3a3-4f47-9121-a59d86e75916	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-24 08:25:45	3.6s	voluminous_euler	ERR	be7c941b4a71d93caae849813aa3f0d1	94d472f9-8205-4f7a-b5e3-3ff0631207dc	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng
+2026-09-24 08:30:16	3.5s	reverent_gates	ERR	be7c941b4a71d93caae849813aa3f0d1	8aa3ba7a-2831-4f3f-a3bf-f646e63e8c00	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng/
+2026-09-24 08:31:10	3.9s	scruffy_saha	ERR	be7c941b4a71d93caae849813aa3f0d1	6982dd65-db2e-4bda-9702-9403cba793b7	nextflow run test.nf --dir ./20250326_Coriell_Na12217_283ng/
+2026-09-24 08:32:02	3.7s	trusting_wozniak	OK	be7c941b4a71d93caae849813aa3f0d1	75d73080-acb6-45e0-9744-cbae42627aeb	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng/
+2026-09-25 09:32:43	4.1s	voluminous_caravaggio	ERR	f0e98836b47b7b797cf5ce98ec72f055	75d73080-acb6-45e0-9744-cbae42627aeb	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:33:23	2.5s	gloomy_swanson	ERR	f0e98836b47b7b797cf5ce98ec72f055	75d73080-acb6-45e0-9744-cbae42627aeb	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:37:58	3.1s	crazy_shannon	ERR	f0e98836b47b7b797cf5ce98ec72f055	75d73080-acb6-45e0-9744-cbae42627aeb	nextflow run test.nf --dir /home/codespace/.profile /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:39:26	3.1s	voluminous_nightingale	ERR	f0e98836b47b7b797cf5ce98ec72f055	75d73080-acb6-45e0-9744-cbae42627aeb	nextflow run test.nf --dir ./20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:41:40	2.9s	gloomy_brown	ERR	f0e98836b47b7b797cf5ce98ec72f055	75d73080-acb6-45e0-9744-cbae42627aeb	nextflow run test.nf --dir ./20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:41:55	2.7s	amazing_borg	ERR	f0e98836b47b7b797cf5ce98ec72f055	75d73080-acb6-45e0-9744-cbae42627aeb	nextflow run test.nf --dir 20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:43:07	3.5s	stoic_ramanujan	OK	f0e98836b47b7b797cf5ce98ec72f055	c6364507-6a41-4acf-a06a-70f1769dc9f6	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 09:44:10	3.1s	adoring_cajal	OK	f0e98836b47b7b797cf5ce98ec72f055	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 09:46:47	2.7s	loving_chandrasekhar	OK	c4d66dc513f60547b753e4e2cd854144	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:48:19	-	modest_jang	-	b6216920dff27c766b8342034566d008	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:48:53	3.8s	grave_snyder	OK	9e6417367dc9b046f82254a4daa75baf	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:52:01	3.1s	big_panini	ERR	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:52:56	3.5s	nauseous_sanger	ERR	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:53:29	-	marvelous_bhaskara	-	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:55:33	-	serene_carlsson	-	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:55:52	3.6s	goofy_euler	ERR	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:56:23	4.4s	dreamy_lichterman	ERR	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:56:40	4s	small_shaw	ERR	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 09:57:03	4.1s	furious_tuckerman	OK	05b0307af402fba3878fa1d76eee18f3	41238787-7e5b-43c0-9aa9-8d96656b1c33	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng -resume
+2026-09-25 10:44:30	4.1s	compassionate_saha	OK	05b0307af402fba3878fa1d76eee18f3	62aa6bc9-e2c1-4603-a1c5-6288f95c212e	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 10:55:40	3.3s	big_hypatia	OK	05b0307af402fba3878fa1d76eee18f3	9d9946c8-b0a6-4c0e-bd6d-855847430b91	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:03:43	-	cheesy_shaw	-	1d881de0304ffafcded1d9ad6ccb7dff	26db3d30-900b-4da1-9b5f-2b1ee9e67192	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:08:07	3.4s	insane_ptolemy	OK	ae0c8325678fe8891023b1b283fafa56	f4e4d656-ea4a-4e23-a567-7f5352feb47b	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:08:25	3.9s	nauseous_blackwell	OK	ae0c8325678fe8891023b1b283fafa56	06ae86ae-8a31-4a6a-8c09-95239317786d	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:11:12	4s	mighty_keller	ERR	ae0c8325678fe8891023b1b283fafa56	b083c5a1-3cfa-423d-a807-ee876242687d	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:14:06	3.3s	friendly_rutherford	OK	b79d38af8584c1c76f595721c48af612	b020732c-121e-4069-8cfc-863a7d2252d8	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:14:50	3.2s	lethal_legentil	ERR	b79d38af8584c1c76f595721c48af612	32f486cb-e918-4ecb-ba28-6423ac608fc1	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:15:21	3.6s	drunk_stonebraker	OK	b79d38af8584c1c76f595721c48af612	3d0ce5e9-8bf5-4bc9-9617-08c34b12d179	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:19:41	3.7s	determined_euclid	OK	b79d38af8584c1c76f595721c48af612	f7f1baf8-24e8-4bc4-bc0f-b8591a06004b	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:20:40	3.7s	silly_monod	OK	b79d38af8584c1c76f595721c48af612	9a2fe0b7-428a-49d4-b426-58e1c07d7293	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:21:08	4.3s	modest_kare	OK	b79d38af8584c1c76f595721c48af612	4b2080a1-54ad-456f-a07d-596d92ee67cc	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:21:44	3.8s	sharp_waddington	OK	b79d38af8584c1c76f595721c48af612	4f2f890f-d31b-4f12-9e97-787412ef415a	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:29:16	-	crazy_coulomb	-	b51b0f3db235e8426d84b675604c4dca	b370febf-b96e-44b0-8ed1-0bb7ae00711c	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:30:18	-	hungry_mandelbrot	-	ded860b9d2b2c282561ab41e3753f009	07c8c9a6-891c-4524-86b6-827fc6e838b9	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:30:34	-	voluminous_gutenberg	-	066582bd59394d5b25c183caab01a880	8b6a210d-a81e-4918-9a44-249cc3ddc187	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:31:46	-	shrivelled_legentil	-	dcab77bb4f2660f99f8612d4ee1f9908	6443910f-865f-474b-8c8f-c9038f114c23	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:31:57	-	nasty_brenner	-	0ce5935ac5aaa22c4e96534b18e7ad71	9368925f-2e85-4e95-9c89-937825995ef8	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:34:03	-	maniac_hamilton	-	0c12075ae0a39e90985780e329af650a	d45d9c26-320a-4fb1-a96b-3afbbad6a9fa	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:52:52	-	jolly_poincare	-	675713d64908fa32b33383e1c4938980	4d1978be-a5ba-42ab-a579-cc41be23c182	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:54:46	4.3s	special_hawking	OK	9ed7b1522bb21f70d852bfdfcffd8012	012e87e0-8376-45b7-88ea-a3c386830535	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:55:55	3.7s	dreamy_celsius	OK	0161e998274623b8170313e255e0571a	84ab2c1a-ebe4-4f77-baf2-f5582d289035	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:56:35	4.4s	exotic_crick	OK	891c6f1bd744d99fea81b06e8c71d11d	04a9c6ff-22e5-454a-aff2-463b2cf11a13	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 11:59:33	4s	nauseous_wegener	OK	c7d2dfd5b650c17dc50ff09802f9b0c6	68887d1e-21e1-4f16-a389-24b1af91ff0f	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 12:01:05	4s	jolly_euclid	ERR	c7d2dfd5b650c17dc50ff09802f9b0c6	30eceff9-2f9f-448a-aa08-0115b7d320f0	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 12:01:24	4.1s	dreamy_booth	OK	c7d2dfd5b650c17dc50ff09802f9b0c6	70d66b7e-59b1-40ce-88ed-afd42512b69d	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 12:03:00	4.3s	deadly_payne	OK	95eb4935b00d846cc5b1192dcfea2adb	52640842-f99d-406f-b7ae-55ec3c6a2139	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 12:06:55	-	cheeky_brown	-	609754d1189dab980e93a267f1fc9a06	14640826-f483-43a0-a156-e4eb58fe4658	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 12:07:43	4.2s	angry_shockley	OK	42bd3cbbf729db13ef2cbc566dab10b2	99a6323e-0178-4ca3-813f-2feb439a0df0	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 12:08:56	4.6s	berserk_pike	OK	42bd3cbbf729db13ef2cbc566dab10b2	992b358a-7386-4efb-af10-962a02b3ffd4	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-25 12:10:31	4.5s	maniac_panini	OK	42bd3cbbf729db13ef2cbc566dab10b2	5394a56b-090e-4054-9f33-9f62599f0e73	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+2026-09-28 07:01:11	5.1s	golden_torricelli	OK	42bd3cbbf729db13ef2cbc566dab10b2	d2fe2d76-9e0a-4f96-8747-2270a36f599c	nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng

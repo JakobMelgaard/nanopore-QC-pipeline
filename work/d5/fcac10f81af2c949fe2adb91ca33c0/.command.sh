@@ -1,0 +1,5 @@
+#!/bin/bash -ue
+for f in FBA17307_pass_24c7392b_cc0d96aa_1.fastq.gz FBA17307_pass_24c7392b_cc0d96aa_0.fastq.gz; do
+    echo "$f" >> "24c7392b_merge_order.txt"
+done
+echo 24c7392b > merged.fastq.gz

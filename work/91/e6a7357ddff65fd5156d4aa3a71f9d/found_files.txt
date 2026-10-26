@@ -1,0 +1,1 @@
+/workspaces/nanopore-QC-pipeline/work/82/2fe1ec059d910942ce9f0590185c6f/found_files.txt

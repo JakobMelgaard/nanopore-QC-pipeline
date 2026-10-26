@@ -1,0 +1,80 @@
+Sep-25 12:02:59.124 [main] DEBUG nextflow.cli.Launcher - $> nextflow run test.nf --dir /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng
+Sep-25 12:02:59.542 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 26.04.6
+Sep-25 12:02:59.569 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/codespace/.nextflow/plugins; core-plugins: nf-amazon@3.9.2,nf-azure@1.22.6,nf-cloudcache@0.6.0,nf-codecommit@0.5.3,nf-console@1.3.0,nf-google@1.27.3,nf-k8s@1.5.4,nf-seqera@0.21.1,nf-tower@1.28.2,nf-wave@1.21.0
+Sep-25 12:02:59.596 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-25 12:02:59.597 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-25 12:02:59.601 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.14.1 in 'deployment' mode
+Sep-25 12:02:59.621 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Sep-25 12:02:59.821 [main] DEBUG nextflow.plugin.PluginUpdater - Using plugin repository: HttpPluginRepository [registry]; url=https://registry.nextflow.io/api
+Sep-25 12:02:59.836 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-25 12:02:59.902 [main] DEBUG nextflow.config.ConfigParserFactory - Using config parser v2
+Sep-25 12:03:00.031 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-25 12:03:00.031 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Sep-25 12:03:00.088 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/codespace/.nextflow/secrets/store.json
+Sep-25 12:03:00.108 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1ad8df52] - activable => nextflow.secret.LocalSecretsProvider@1ad8df52
+Sep-25 12:03:00.130 [main] DEBUG nextflow.cli.CmdRun - Launching `test.nf` [deadly_payne] - revision: 95eb4935b0
+Sep-25 12:03:00.356 [main] DEBUG nextflow.Session - Session UUID: 52640842-f99d-406f-b7ae-55ec3c6a2139
+Sep-25 12:03:00.357 [main] DEBUG nextflow.Session - Run name: deadly_payne
+Sep-25 12:03:00.358 [main] DEBUG nextflow.Session - Executor pool size: 2
+Sep-25 12:03:00.369 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Sep-25 12:03:00.377 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Sep-25 12:03:00.400 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 26.04.6 build 12646
+  Created: 09-07-2026 18:49 UTC 
+  System: Linux 6.8.0-1064-azure
+  Runtime: Groovy 4.0.31 on OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 55753@codespaces-5b4de1 [127.0.0.1]
+  CPUs: 2 - Mem: 7.8 GB (270.8 MB) - Swap: 0 (0)
+Sep-25 12:03:00.425 [main] DEBUG nextflow.Session - Work-dir: /workspaces/nanopore-QC-pipeline/work [ext2/ext3]
+Sep-25 12:03:00.426 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /workspaces/nanopore-QC-pipeline/bin
+Sep-25 12:03:00.442 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Sep-25 12:03:00.454 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Sep-25 12:03:00.457 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Sep-25 12:03:00.502 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Sep-25 12:03:00.521 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 3; maxThreads: 1000
+Sep-25 12:03:00.629 [main] DEBUG nextflow.Session - Session start
+Sep-25 12:03:00.653 [main] DEBUG nextflow.script.ScriptLoaderFactory - Using script parser v2
+Sep-25 12:03:02.037 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-25 12:03:02.288 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-25 12:03:02.289 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-25 12:03:02.308 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Sep-25 12:03:02.319 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=2; memory=7.8 GB; capacity=2; pollInterval=100ms; dumpInterval=5m
+Sep-25 12:03:02.322 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Sep-25 12:03:02.439 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'findFiles': maxForks=0; fair=false; array=0
+Sep-25 12:03:02.881 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-25 12:03:02.884 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-25 12:03:02.889 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'mergeAllFiles': maxForks=0; fair=false; array=0
+Sep-25 12:03:02.940 [main] DEBUG nextflow.Session - Process names: findFiles, mergeAllFiles
+Sep-25 12:03:02.949 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
+Sep-25 12:03:02.950 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > findFiles
+Sep-25 12:03:02.985 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > mergeAllFiles
+Sep-25 12:03:02.997 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Main: /workspaces/nanopore-QC-pipeline/test.nf
+  _nf_script_6d73829b257ac620: /workspaces/nanopore-QC-pipeline/modules/findFiles.nf
+  _nf_script_dd331deba8ae0edf: /workspaces/nanopore-QC-pipeline/modules/mergeAllFiles.nf
+Sep-25 12:03:02.997 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Sep-25 12:03:02.999 [main] DEBUG nextflow.Session - Session await
+Sep-25 12:03:03.001 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /workspaces/nanopore-QC-pipeline/20250326_Coriell_Na12217_283ng/; pattern: **/*pass*.fastq.gz; options: [:]
+Sep-25 12:03:03.377 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-25 12:03:03.381 [Task submitter] INFO  nextflow.Session - [ea/2315d0] Submitted process > findFiles
+Sep-25 12:03:03.476 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: findFiles; status: COMPLETED; exit: 0; error: -; workDir: /workspaces/nanopore-QC-pipeline/work/ea/2315d0b0242979c7c30d6e2848f11c]
+Sep-25 12:03:03.478 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Sep-25 12:03:03.612 [Actor Thread 5] INFO  nextflow.script.BaseScript - Merging files for sample: 24c7392b, Files to merge: FBA17307_pass_24c7392b_cc0d96aa_1.fastq.gz, FBA17307_pass_24c7392b_cc0d96aa_0.fastq.gz
+Sep-25 12:03:03.614 [Actor Thread 6] INFO  nextflow.script.BaseScript - Merging files for sample: b7380ffb, Files to merge: FBA14966_pass_b7380ffb_b993a025_0.fastq.gz, FBA14966_pass_b7380ffb_b993a025_1.fastq.gz
+Sep-25 12:03:03.744 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-25 12:03:03.747 [Task submitter] INFO  nextflow.Session - [d5/30d323] Submitted process > mergeAllFiles (2)
+Sep-25 12:03:03.779 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-25 12:03:03.783 [Task submitter] INFO  nextflow.Session - [3c/af41d9] Submitted process > mergeAllFiles (1)
+Sep-25 12:03:03.815 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: mergeAllFiles (2); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/nanopore-QC-pipeline/work/d5/30d3232463e1864b93d10132031665]
+Sep-25 12:03:03.867 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: mergeAllFiles (1); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/nanopore-QC-pipeline/work/3c/af41d9bebbbcf23095bb5ad97b1ba8]
+Sep-25 12:03:03.869 [Actor Thread 1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Sep-25 12:03:03.878 [main] DEBUG nextflow.Session - Session await > all processes finished
+Sep-25 12:03:03.969 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Sep-25 12:03:03.970 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Sep-25 12:03:03.981 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Sep-25 12:03:03.985 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Sep-25 12:03:04.124 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=65ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+Sep-25 12:03:04.236 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Sep-25 12:03:04.362 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Sep-25 12:03:04.364 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
